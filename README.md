@@ -6,7 +6,7 @@ Este repositório público contém somente instaladores e arquivos de atualizaç
 
 Um instalador inclui player local, biblioteca, downloads e Estúdio de Widgets. Não é necessário instalar Python, Node.js ou ferramentas de mídia. Feche o Lume antes da instalação manual; músicas, playlists e preferências são preservadas.
 
-A beta.7 já está disponível pelo instalador acima. A ativação desta versão no canal de atualização do aplicativo ainda está em conclusão; por enquanto, use o EXE. Depois de ativado, o canal permite verificar, baixar e instalar pelo próprio Lume. Uma mudança no código precisa ser compilada, testada e publicada para chegar ao aplicativo.
+Na beta.3 ou posterior, abra **Preferências → Atualizações → Verificar atualização** para encontrar a beta.7. O canal foi conferido com o atualizador do Lume: assinatura, versão, tamanho e download completo do instalador válidos. Quem usa beta.1 ou beta.2 precisa instalar a beta.7 pelo EXE acima uma vez. Uma mudança no código precisa ser compilada, testada e publicada para chegar ao aplicativo.
 
 A beta.4 acrescenta Terminal, Album Poster, Split Player e Neon Pulse, mantendo Circular Spectrum e os modelos anteriores em Clássicos. Os widgets usam a música, o tempo e o áudio real do player.
 

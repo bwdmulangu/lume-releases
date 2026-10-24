@@ -1,21 +1,15 @@
 # Lume para Windows
 
-Este repositório público contém somente instaladores e arquivos de atualização. O código-fonte do Lume permanece em um repositório privado.
+[Baixar uma versão beta do Lume](https://github.com/bwdmulangu/lume-releases/releases) — abra a versão mais recente numerada e, em **Assets**, baixe o arquivo **Lume-…-Setup.exe**. A release **channel-beta** contém o manifesto de atualização, não o instalador.
 
-[Baixar Lume 2.0.0-beta.7 (.exe)](https://github.com/bwdmulangu/lume-releases/releases/download/v2.0.0-beta.7/Lume-2.0.0-beta.7-Setup.exe) · [Versões](https://github.com/bwdmulangu/lume-releases/releases)
+Este repositório público contém instaladores e arquivos de atualização. O código-fonte permanece privado. Player, biblioteca, downloads e Estúdio de Widgets estão incluídos; não é necessário instalar Python, Node.js ou ferramentas de mídia.
 
-Um instalador inclui player local, biblioteca, downloads e Estúdio de Widgets. Não é necessário instalar Python, Node.js ou ferramentas de mídia. Feche o Lume antes da instalação manual; músicas, playlists e preferências são preservadas.
+No aplicativo, use **Preferências → Atualizações** para verificar, baixar e instalar uma nova versão. A partir da beta.14, o Lume também procura atualizações ao abrir, a cada dez minutos e ao voltar à janela após cinco minutos sem consulta. A bolinha azul em Preferências indica uma versão disponível ou pronta para instalar. O aplicativo não reinicia nem instala sem sua ação.
 
-Na beta.3 ou posterior, abra **Preferências → Atualizações → Verificar atualização** para encontrar a beta.7. O canal foi conferido com o atualizador do Lume: assinatura, versão, tamanho e download completo do instalador válidos. Quem usa beta.1 ou beta.2 precisa instalar a beta.7 pelo EXE acima uma vez. Uma mudança no código precisa ser compilada, testada e publicada para chegar ao aplicativo.
+Feche o Lume antes da instalação manual. Atualizações preservam músicas, playlists e preferências. A exclusão pela biblioteca oferece dez segundos para desfazer e depois envia o áudio para a Lixeira. A desinstalação preserva músicas por padrão e pode oferecer uma revisão opcional dos downloads.
 
-A beta.4 acrescenta Terminal, Album Poster, Split Player e Neon Pulse, mantendo Circular Spectrum e os modelos anteriores em Clássicos. Os widgets usam a música, o tempo e o áudio real do player.
+Os widgets usam a música, o tempo e o áudio do player. A opção Alta · 2× aumenta a resolução da fonte de navegador; use as dimensões indicadas no Estúdio e reduza para o tamanho sugerido na cena. Uso prolongado no OBS e em computadores diferentes ainda precisa de validação.
 
-A beta.5 corrige os formatos de capa, separa seu arredondamento, mostra controles de vinil apenas quando têm efeito e aumenta o espaço da prévia. Em Fonte de transmissão, a opção Alta · 2× aumenta a resolução. Use as dimensões indicadas nas propriedades da fonte e reduza para o tamanho sugerido na cena. Padrão · 1× continua disponível; o custo real do modo 2× no OBS ainda precisa de medição.
+Os manifestos do canal beta são assinados com Ed25519. O aplicativo verifica assinatura, versão, tamanho e SHA-256 antes de executar o instalador. Essa assinatura é independente do certificado de publicador do Windows, ainda não configurado nesta beta. Avisos do Windows podem continuar aparecendo.
 
-A beta.6 move as músicas selecionadas para a Lixeira do Windows após confirmação. Se um arquivo falhar, ele continua na biblioteca. Remover de uma playlist preserva o áudio; JPGs separados e pastas também são preservados. A exclusão atualiza o catálogo uma vez por lote, e a fila evita buscas repetidas ao restaurar a ordem após embaralhar.
-
-A beta.7 acrescenta Usar as cores da capa imediatamente ao lado do fundo branco da prévia, sincronizado com a opção em Aparência. As cores automáticas preservam matizes predominantes e ganham contraste; as escolhas manuais ficam guardadas. O processamento usa uma amostra pequena e cache de capas.
-
-Os manifestos do canal beta são assinados com Ed25519. O aplicativo verifica a assinatura, versão, tamanho e SHA-256 antes de executar um instalador. Nenhum token ou chave privada fica dentro do aplicativo. Essa assinatura é independente do certificado de publicador do Windows, ainda não configurado nesta beta.
-
-Versão de testes. Composição e reconexão no OBS e uso em diferentes computadores ainda precisam de validação.
+**Versão de testes.** As notas e os arquivos de cada versão estão na página de releases.
